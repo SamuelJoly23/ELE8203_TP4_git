@@ -1,0 +1,742 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+PointLight {
+	location	0.175693 4.53397 4.30165
+}
+DirectionalLight {
+	direction	0.159364 0.987199 -0.00637061
+	intensity	0.5
+}
+DEF General Viewpoint {
+	orientation	-0.176368 0.981776 0.0707767  0.765102
+	position	17.9668 5.88869 17.324
+	description	"Vue generale"
+}
+NavigationInfo {
+	headlight	FALSE
+}
+DEF Cote Viewpoint {
+	orientation	-0.994662 -0.103164 -0.00196156  0.142761
+	position	0.61009 4.36819 23.5979
+	description	"Vue de cote"
+}
+Transform {
+	translation	-0.355969 -2.41284 -0.763238
+	scale	1.6879 0.0934248 1.7202
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				ambientIntensity	0.2
+				diffuseColor	0 0 0
+			}
+
+			texture	NULL
+		}
+
+		geometry	Box {
+		}
+
+	}
+}
+DEF Base Transform {
+	translation	-0.278589 -1.71439 -0.890064
+	scale	1.30259 0.760647 0.952417
+	children [ 
+	    Shape {
+		    appearance	Appearance {
+			    material	Material {
+				    ambientIntensity	0.2
+				    diffuseColor	0 0 0
+			    }
+
+			    texture	NULL
+		    }
+
+		    geometry	Box {
+		    }
+
+	    }
+
+	    DEF Joint1 Transform {
+		    children [ 
+			Shape {
+				appearance	Appearance {
+					material	Material {
+					}
+
+				}
+
+				geometry	IndexedFaceSet {
+				}
+
+			}
+
+			DEF Joint1_ Transform {
+				translation	0.0123953 2.28831 0.900421
+				rotation	-1 0 0  1.56753
+				scale	0.999999 1.8 1.30348
+				children [ 
+				    Shape {
+					    appearance	Appearance {
+						    material	Material {
+							    ambientIntensity	0.2
+							    diffuseColor	0.8 0.789856 0.00200167
+							    specularColor	1 1 1
+						    }
+
+					    }
+
+					    geometry	Extrusion {
+						    beginCap	TRUE
+						    endCap	TRUE
+						    ccw	TRUE
+						    convex	TRUE
+						    creaseAngle	0
+						    solid	TRUE
+						    crossSection	[ 0.893291 0.0694398,
+								      1 -1,
+								      -1.59199 -1.00606,
+								      -1.51932 0.447319,
+								      -1.41759 0.708927,
+								      -1.28678 0.883333,
+								      -1.12691 0.98507,
+								      0.108465 0.98507,
+								      0.282871 0.897867,
+								      0.559013 0.723461,
+								      0.893291 0.0694398 ]
+						    orientation	[ 0 0 1  0,
+								      0 0 1  0 ]
+						    scale	[ 1 1,
+								      1 1 ]
+						    spine	[ 0 0 0,
+								      0 1 0 ]
+					    }
+
+				    }
+
+				    Transform {
+					    translation	-0.30123 -1.11461e-007 0.753078
+					    scale	1 0.3 1
+					    center	0 1.3 0
+					    children Shape {
+						    appearance	Appearance {
+							    material	Material {
+								    ambientIntensity	0.2
+								    diffuseColor	0.8 0.789856 0.00200167
+								    specularColor	1 1 1
+							    }
+
+						    }
+
+						    geometry	Extrusion {
+							    beginCap	TRUE
+							    endCap	TRUE
+							    ccw	TRUE
+							    convex	TRUE
+							    creaseAngle	0
+							    solid	TRUE
+							    crossSection	[ 1.61325 1.06824,
+									      0.944698 -0.690356,
+									      0.770292 -0.864762,
+									      -0.988299 -0.864762,
+									      -1.16271 -0.690356,
+									      -1.1627 0.00726691,
+									      -1.09004 0.21074,
+									      -0.218007 1.64959,
+									      0.0484459 2.05653,
+									      0.348811 2.31814,
+									      0.697623 2.46348,
+									      1.0755 2.42472,
+									      1.31773 2.34721,
+									      1.52605 2.18734,
+									      1.65685 1.9112,
+									      1.68592 1.51878,
+									      1.61325 1.06824 ]
+							    orientation	[ 0 0 1  0,
+									      0 0 1  0 ]
+							    scale	[ 1 1,
+									      1 1 ]
+							    spine	[ 0 0 0,
+									      0 1 0 ]
+						    }
+
+					    }
+				    }
+
+				    Transform {
+					    translation	-0.30123 9.10276e-008 0.753078
+					    scale	1 0.3 1
+					    center	0 -0.3 0
+					    children Shape {
+						    appearance	Appearance {
+							    material	Material {
+								    ambientIntensity	0.2
+								    diffuseColor	0.8 0.789856 0.00200167
+								    specularColor	1 1 1
+							    }
+
+						    }
+
+						    geometry	Extrusion {
+							    beginCap	TRUE
+							    endCap	TRUE
+							    ccw	TRUE
+							    convex	TRUE
+							    creaseAngle	0
+							    solid	TRUE
+							    crossSection	[ 1.61325 1.06824,
+									      0.944698 -0.690356,
+									      0.770292 -0.864762,
+									      -0.988299 -0.864762,
+									      -1.16271 -0.690356,
+									      -1.1627 0.00726691,
+									      -1.09004 0.21074,
+									      -0.218007 1.64959,
+									      0.0484459 2.05653,
+									      0.348811 2.31814,
+									      0.697623 2.46348,
+									      1.0755 2.42472,
+									      1.31773 2.34721,
+									      1.52605 2.18734,
+									      1.65685 1.9112,
+									      1.68592 1.51878,
+									      1.61325 1.06824 ]
+							    orientation	[ 0 0 1  0,
+									      0 0 1  0 ]
+							    scale	[ 1 1,
+									      1 1 ]
+							    spine	[ 0 0 0,
+									      0 1 0 ]
+						    }
+
+					    }
+				    }
+
+				    DEF Joint2 Transform {
+					    translation	0.636121 0.440867 2.52203
+					    rotation	0 -1 0  0.00169146
+					    children [ 
+						Shape {
+							appearance	Appearance {
+								material	Material {
+								}
+
+							}
+
+							geometry	IndexedFaceSet {
+							}
+
+						}
+
+						DEF Joint2_ Transform {
+							translation	-0.016667 -0.540285 1.0356
+							rotation	1 0 0  3.14159
+							scale	0.7805 0.465347 0.7805
+							center	0 0.4 -0.6
+							children [ 
+							    Shape {
+								    appearance	Appearance {
+									    material	Material {
+										    ambientIntensity	0.2
+										    diffuseColor	0.8 0.789856 0.00200167
+										    specularColor	1 1 1
+									    }
+
+								    }
+
+								    geometry	Cylinder {
+								    }
+
+							    }
+
+							    Transform {
+								    translation	0.212265 0.0183709 -1.89492
+								    scale	0.5371 0.55 1.8334
+								    children Shape {
+									    appearance	Appearance {
+										    material	Material {
+											    ambientIntensity	0.2
+											    diffuseColor	0.8 0.789856 0.00200167
+											    specularColor	1 1 1
+										    }
+
+									    }
+
+									    geometry	Box {
+									    }
+
+								    }
+							    }
+
+							    Transform {
+								    translation	0.128042 0.0723917 -2.51563
+								    rotation	1 0 0  3.14159
+								    scale	1 0.4 1
+								    center	0 0.6 0.2
+								    children Shape {
+									    appearance	Appearance {
+										    material	Material {
+											    ambientIntensity	0.2
+											    diffuseColor	0.8 0.789856 0.00200167
+											    specularColor	1 1 1
+										    }
+
+									    }
+
+									    geometry	Extrusion {
+										    beginCap	TRUE
+										    endCap	TRUE
+										    ccw	TRUE
+										    convex	TRUE
+										    creaseAngle	0
+										    solid	TRUE
+										    crossSection	[ 0.806627 2.37628,
+												      1.00283 -0.654022,
+												      0.174406 -0.850228,
+												      -0.348811 -0.981032,
+												      -1 -1,
+												      -0.937431 2.37628,
+												      -0.857494 2.76869,
+												      -0.697622 3.04483,
+												      -0.537751 3.21924,
+												      -0.30521 3.35004,
+												      -5.21541e-008 3.40818,
+												      0.290676 3.35004,
+												      0.523217 3.19017,
+												      0.712156 2.95763,
+												      0.799359 2.69602,
+												      0.806627 2.37628 ]
+										    orientation	[ 0 0 1  0,
+												      0 0 1  0 ]
+										    scale	[ 1 1,
+												      1 1 ]
+										    spine	[ 0 0 0,
+												      0 1 0 ]
+									    }
+
+								    }
+							    }
+
+							    Transform {
+								    translation	0.159769 -3.60906e-007 -2.51563
+								    rotation	1 0 0  3.14159
+								    scale	1 0.4 1
+								    center	0 -0.3 0.2
+								    children Shape {
+									    appearance	Appearance {
+										    material	Material {
+											    ambientIntensity	0.2
+											    diffuseColor	0.8 0.789856 0.00200167
+											    specularColor	1 1 1
+										    }
+
+									    }
+
+									    geometry	Extrusion {
+										    beginCap	TRUE
+										    endCap	TRUE
+										    ccw	TRUE
+										    convex	TRUE
+										    creaseAngle	0
+										    solid	TRUE
+										    crossSection	[ 0.806627 2.37628,
+												      1.00283 -0.654022,
+												      0.174406 -0.850228,
+												      -0.348811 -0.981032,
+												      -1 -1,
+												      -0.937431 2.37628,
+												      -0.857494 2.76869,
+												      -0.697622 3.04483,
+												      -0.537751 3.21924,
+												      -0.30521 3.35004,
+												      -5.21541e-008 3.40818,
+												      0.290676 3.35004,
+												      0.523217 3.19017,
+												      0.712156 2.95763,
+												      0.799359 2.69602,
+												      0.806627 2.37628 ]
+										    orientation	[ 0 0 1  0,
+												      0 0 1  0 ]
+										    scale	[ 1 1,
+												      1 1 ]
+										    spine	[ 0 0 0,
+												      0 1 0 ]
+									    }
+
+								    }
+							    }
+
+							    DEF Joint3 Transform {
+								    translation	4.58204e-007 0.0993688 -4.84358
+								    rotation	0 1 0  0.00169146
+								    children [ 
+									Shape {
+										appearance	Appearance {
+											material	Material {
+											}
+
+										}
+
+										geometry	IndexedFaceSet {
+										}
+
+									}
+
+									DEF Joint3_ Transform {
+										translation	0.0616812 0.921771 0.814198
+										rotation	1 0 0  3.14159
+										scale	0.699645 0.951249 0.699643
+										center	0 -0.5 -0.5
+										children [ 
+										    Shape {
+											    appearance	Appearance {
+												    material	Material {
+													    ambientIntensity	0.2
+													    diffuseColor	0.8 0.789856 0.00200167
+													    specularColor	1 1 1
+												    }
+
+											    }
+
+											    geometry	Cylinder {
+											    }
+
+										    }
+
+										    Transform {
+											    translation	0.213766 -0.772121 0.50679
+											    scale	1.6 1.6 1.6
+											    children Shape {
+												    appearance	Appearance {
+													    material	Material {
+														    ambientIntensity	0.2
+														    diffuseColor	0.8 0.789856 0.00200167
+														    specularColor	1 1 1
+													    }
+
+												    }
+
+												    geometry	Extrusion {
+													    beginCap	TRUE
+													    endCap	TRUE
+													    ccw	TRUE
+													    convex	TRUE
+													    creaseAngle	0
+													    solid	TRUE
+													    crossSection	[ 1.14817 1.02463,
+															      1.14817 -0.065402,
+															      0.813894 -0.065402,
+															      0.79936 -0.617687,
+															      0.377879 -0.82116,
+															      -0.11627 -0.995566,
+															      -0.755758 -0.922897,
+															      -1.00283 -0.733957,
+															      -0.973765 0.123538,
+															      -0.842961 0.297943,
+															      -0.058135 0.864762,
+															      0.159872 0.981032,
+															      0.406947 1.02463,
+															      1.14817 1.02463 ]
+													    orientation	[ 0 0 1  0,
+															      0 0 1  0 ]
+													    scale	[ 1 1,
+															      1 1 ]
+													    spine	[ 0 0 0,
+															      0 1 0 ]
+												    }
+
+											    }
+										    }
+
+										    DEF Joint4 Transform {
+											    children [ 
+												Shape {
+													appearance	Appearance {
+														material	Material {
+														}
+
+													}
+
+													geometry	IndexedFaceSet {
+													}
+
+												}
+
+												DEF Joint4_ Transform {
+													translation	2.9434 0.0055681 1.23579
+													rotation	1 0 0  1.5708
+													scale	0.950511 0.869704 0.761954
+													children [ 
+													    Shape {
+														    appearance	Appearance {
+															    material	Material {
+																    ambientIntensity	0.2
+																    diffuseColor	0.8 0.789856 0.00200167
+																    specularColor	1 1 1
+															    }
+
+														    }
+
+														    geometry	Box {
+														    }
+
+													    }
+
+													    Transform {
+														    translation	-0.00365888 1.61394 -0.0171687
+														    rotation	-1 0 0  1.5708
+														    scale	1 0.4 1
+														    center	0 -1.5 0
+														    children Shape {
+															    appearance	Appearance {
+																    material	Material {
+																	    ambientIntensity	0.2
+																	    diffuseColor	0.8 0.789856 0.00200167
+																	    specularColor	1 1 1
+																    }
+
+															    }
+
+															    geometry	Extrusion {
+																    beginCap	TRUE
+																    endCap	TRUE
+																    ccw	TRUE
+																    convex	TRUE
+																    creaseAngle	0
+																    solid	TRUE
+																    crossSection	[ 2.24547 1.00283,
+																		      3.1393 0.927741,
+																		      3.42998 0.772714,
+																		      3.57532 0.452971,
+																		      3.61407 0.0169564,
+																		      3.56563 -0.331855,
+																		      3.40091 -0.748491,
+																		      3.12961 -0.922897,
+																		      2.18007 -1.02463,
+																		      -1.00283 -1.02463,
+																		      -1 1,
+																		      2.24547 1.00283 ]
+																    orientation	[ 0 0 1  0,
+																		      0 0 1  0 ]
+																    scale	[ 1 1,
+																		      1 1 ]
+																    spine	[ 0 0 0,
+																		      0 1 0 ]
+															    }
+
+														    }
+													    }
+
+													    Transform {
+														    translation	0.00602166 -2.458 5.66244e-006
+														    rotation	-1 0 0  1.5708
+														    scale	1.01974 0.4 1
+														    center	0 2.5 0
+														    children Shape {
+															    appearance	Appearance {
+																    material	Material {
+																	    ambientIntensity	0.2
+																	    diffuseColor	0.8 0.789856 0.00200167
+																	    specularColor	1 1 1
+																    }
+
+															    }
+
+															    geometry	Extrusion {
+																    beginCap	TRUE
+																    endCap	TRUE
+																    ccw	TRUE
+																    convex	TRUE
+																    creaseAngle	0
+																    solid	TRUE
+																    crossSection	[ 2.24547 1.00283,
+																		      3.1393 0.927741,
+																		      3.42998 0.772714,
+																		      3.57532 0.452971,
+																		      3.61407 0.0169564,
+																		      3.56563 -0.331855,
+																		      3.40091 -0.748491,
+																		      3.12961 -0.922897,
+																		      2.18007 -1.02463,
+																		      -1.00283 -1.02463,
+																		      -1 1,
+																		      2.24547 1.00283 ]
+																    orientation	[ 0 0 1  0,
+																		      0 0 1  0 ]
+																    scale	[ 1 1,
+																		      1 1 ]
+																    spine	[ 0 0 0,
+																		      0 1 0 ]
+															    }
+
+														    }
+													    }
+
+													    DEF Joint5 Transform {
+														    translation	2.95698 1.01125e-006 -4.41465e-007
+														    rotation	0 0 1  0.00169146
+														    children [ 
+															Shape {
+																appearance	Appearance {
+																	material	Material {
+																	}
+
+																}
+
+																geometry	IndexedFaceSet {
+																}
+
+															}
+
+															DEF Joint5_ Transform {
+																translation	-0.362894 -0.0593257 -0.0812503
+																rotation	1 0 0  1.5708
+																scale	1.02953 0.872904 0.7652
+																children [ 
+																    Shape {
+																	    appearance	Appearance {
+																		    material	Material {
+																			    ambientIntensity	0.2
+																			    diffuseColor	0.8 0.789856 0.00200167
+																			    specularColor	1 1 1
+																		    }
+
+																	    }
+
+																	    geometry	Cylinder {
+																	    }
+
+																    }
+
+																    Transform {
+																	    translation	0.626853 1.14249e-007 -0.0272662
+																	    scale	1 0.576278 0.466412
+																	    children Shape {
+																		    appearance	Appearance {
+																			    material	Material {
+																				    ambientIntensity	0.2
+																				    diffuseColor	0.8 0.789856 0.00200167
+																				    specularColor	1 1 1
+																			    }
+
+																		    }
+
+																		    geometry	Box {
+																		    }
+
+																	    }
+																    }
+
+																    DEF Joint6 Transform {
+																	    children [ 
+																		Shape {
+																			appearance	Appearance {
+																				material	Material {
+																				}
+
+																			}
+
+																			geometry	IndexedFaceSet {
+																			}
+
+																		}
+
+																		DEF Joint6_ Transform {
+																			translation	1.63528 0.0557911 -0.0991676
+																			rotation	-0.574806 0.582406 0.574806  2.08684
+																			scale	1.1556 0.445021 1.12968
+																			children [ 
+																			    Shape {
+																				    appearance	Appearance {
+																					    material	Material {
+																						    ambientIntensity	0.2
+																						    diffuseColor	0 0 0
+																						    specularColor	1 1 1
+																					    }
+
+																				    }
+
+																				    geometry	Cylinder {
+																				    }
+
+																			    }
+
+																			    Transform {
+																				    translation	2.46389e-006 -2.21801 -0.526405
+																				    scale	0.340309 2.1042 0.159084
+																				    children Shape {
+																					    appearance	Appearance {
+																						    material	Material {
+																							    ambientIntensity	0.2
+																							    specularColor	1 1 1
+																						    }
+
+																					    }
+
+																					    geometry	Box {
+																					    }
+
+																				    }
+																			    }
+
+																			    Transform {
+																				    translation	2.46389e-006 -2.21801 -0.526405
+																				    scale	0.340309 2.1042 0.159084
+																				    center	0 0 1.25
+																				    children Shape {
+																					    appearance	Appearance {
+																						    material	Material {
+																							    ambientIntensity	0.2
+																							    specularColor	1 1 1
+																						    }
+
+																					    }
+
+																					    geometry	Box {
+																					    }
+
+																				    }
+																			    }
+																			]
+																		}
+																	    ]
+																    }
+																]
+															}
+														    ]
+													    }
+													]
+												}
+											    ]
+										    }
+										]
+									}
+								    ]
+							    }
+							]
+						}
+					    ]
+				    }
+				]
+			}
+		    ]
+	    }
+	]
+}
+Background {
+	groundAngle	[ 0.9, 1.5, 1.57 ]
+	groundColor	[ 0 0.8 0,
+			  0.174249 0.82 0.187362,
+			  0.467223 0.82 0.445801,
+			  0.621997 0.67 0.600279 ]
+	skyAngle	[ 0.1, 1.2, 1.57 ]
+	skyColor	[ 0.76238 0.8 0.1427,
+			  0.277798 0.219779 0.7,
+			  0.222549 0.390234 0.7,
+			  0.60094 0.662637 0.69 ]
+}
